@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chukycheese-quarto-github-io"
+version = "0.1.0"
+description = "GitHub pages using Quarto"
+authors = ["chukycheese <chusinev@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "chukycheese_quarto"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+quarto = "^0.1.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
